@@ -1,22 +1,11 @@
 import BarraNavegacion from "./components/BarraNavegacion/BarraNavegacion";
-import { Container, Row, Col } from "react-bootstrap";
-
+import "./App.css";
+import Seccionhero from "./components/SeccionHero/Seccionhero";
 function App() {
   return (
     <>
       <BarraNavegacion />
-
-      <Container className="mt-4">
-        <Row>
-          <Col md={6}>
-            <h1>Pilar tecno</h1>
-            <p>Bienvenido al curso de React</p>
-          </Col>
-          <Col md={6}>
-            {/* acá van los cursos, más adelante */}
-          </Col>
-        </Row>
-      </Container>
+      <Seccionhero />
     </>
   );
 }
